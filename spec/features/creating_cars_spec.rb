@@ -15,4 +15,6 @@ feature 'Creating Cars' do
 
     expect(page).to have_content('1967 Ford Mustang created')
   end
+
+  scenario 'can add a second car'
 end
